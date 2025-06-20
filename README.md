@@ -15,7 +15,7 @@ A reusable collection of React components with Storybook integration.
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:mejiaj/react-components.git
 cd react-components
 npm install
 ```
