@@ -1,4 +1,5 @@
 import React from 'react';
+
 import "./button.css";
 
 export function Button({
@@ -9,12 +10,12 @@ export function Button({
   ...props
 }) {
   const mode = primary
-    ? "storybook-button--primary"
-    : "storybook-button--secondary";
+    ? "rc-button--primary"
+    : "rc-button--secondary";
   return (
     <button
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
+      className={["rc-button", `rc-button--${size}`, mode].join(
         " ",
       )}
       style={backgroundColor && { backgroundColor }}

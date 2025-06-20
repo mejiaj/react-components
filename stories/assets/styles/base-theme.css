@@ -1,0 +1,33 @@
+@import "https://unpkg.com/open-props/colors";
+@import "https://unpkg.com/open-props/sizes";
+@import "https://unpkg.com/open-props/fonts";
+
+:where(html) {
+  /* Colors */
+  --theme-base-color-lightest: var(--gray-2);
+  --theme-base-color-lighter: var(--gray-3);
+  --theme-base-color-light: var(--gray-4);
+  --theme-base-color: var(--gray-5);
+  --theme-base-color-dark: var(--gray-6);
+  --theme-base-color-darker: var(--gray-7);
+  --theme-base-color-darkest: var(--gray-8);
+  --theme-primary-color-lightest: var(--indigo-2);
+  --theme-primary-color-lighter: var(--indigo-3);
+  --theme-primary-color-light: var(--indigo-4);
+  --theme-primary-color: var(--indigo-5);
+  --theme-primary-color-dark: var(--indigo-6);
+  --theme-primary-color-darker: var(--indigo-7);
+  --theme-primary-color-darkest: var(--indigo-8);
+  --theme-accent-color-lightest: var(--cyan-2);
+  --theme-accent-color-lighter: var(--cyan-3);
+  --theme-accent-color-light: var(--cyan-4);
+  --theme-accent-color: var(--cyan-5);
+  --theme-accent-color-dark: var(--cyan-6);
+  --theme-accent-color-darker: var(--cyan-7);
+  --theme-accent-color-darkest: var(--cyan-8);
+
+  /* Fonts */
+  --theme-font-ui: var(--font-system-ui);
+  --theme-font-monospace: var(--font-monospace-code);
+  --theme-font-primary: var(--theme-font-ui);
+}
