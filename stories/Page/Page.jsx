@@ -70,6 +70,7 @@ export function Page() {
             height="10"
             viewBox="0 0 12 12"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <g fill="none" fillRule="evenodd">
               <path
@@ -84,4 +85,4 @@ export function Page() {
       </section>
     </article>
   );
-};
+}
