@@ -21,15 +21,22 @@ export default {
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
+export const Default = {
+  args: {
+    label: "Button",
+  },
+};
+
 export const Primary = {
   args: {
-    primary: true,
+    variant: "primary",
     label: "Button",
   },
 };
 
 export const Secondary = {
   args: {
+    variant: "secondary",
     label: "Button",
   },
 };

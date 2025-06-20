@@ -6,10 +6,9 @@
   font-weight: 700;
   line-height: 1;
   font-family: var(--theme-font-primary);
-  background-color: var(--theme-brand);
 }
 .rc-button--primary {
-  background-color: #555ab9;
+  background-color: var(--theme-primary-color);
   color: white;
 }
 .rc-button--secondary {
