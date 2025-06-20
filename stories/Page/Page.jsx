@@ -3,7 +3,7 @@ import React from "react";
 import { Header } from "../Header/Header";
 import "./page.css";
 
-export const Page = () => {
+export function Page() {
   const [user, setUser] = React.useState();
 
   return (
