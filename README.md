@@ -1,6 +1,7 @@
 # React Components Library
 
-A reusable collection of React components with Storybook integration.
+A set of accessible, reusable React components styled with CSS custom properties. Explore and test them in Storybook.
+
 
 ## Table of Contents
 - [Installation](#installation)
