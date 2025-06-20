@@ -23,3 +23,5 @@ yarn-error.log*
 
 # VSCode settings
 .vscode/
+
+*storybook.log

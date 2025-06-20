@@ -9,7 +9,7 @@
     "ignoreUnknown": false,
     // Markdown isn't supported yet.
     // https://biomejs.dev/internals/language-support/
-    "includes": ["stories/**/*.{js, jsx, ts, tsx, css}"]
+    "includes": ["stories/**"]
   },
   "formatter": {
     "enabled": true,
