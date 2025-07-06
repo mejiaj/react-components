@@ -1,11 +1,8 @@
-import React from "react";
-
 import "./button.css";
 
 export function Button({
-  variant = "default" | "primary" | "secondary",
+  variant = "default",
   primary = false,
-  backgroundColor = null,
   size = "medium",
   label,
   ...props
@@ -18,7 +15,6 @@ export function Button({
         `rc-button--${variant ? variant : "default"}`,
         `rc-button--${size}`,
       ].join(" ")}
-      style={backgroundColor && { backgroundColor }}
       {...props}
     >
       {label}
