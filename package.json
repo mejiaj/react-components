@@ -8,6 +8,7 @@
     "lint:check": "npx @biomejs/biome lint",
     "lint:fix": "npx @biomejs/biome lint --write",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run storybook",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -15,7 +16,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@biomejs/biome": "2.0.2",
+    "@biomejs/biome": "2.0.6",
     "@chromatic-com/storybook": "4.0.1",
     "@storybook/addon-a11y": "9.0.12",
     "@storybook/addon-docs": "9.0.12",
