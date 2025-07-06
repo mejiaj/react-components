@@ -1,6 +1,7 @@
 {
   "name": "react-components",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "format:check": "npx @biomejs/biome format",
@@ -18,15 +19,16 @@
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
     "@chromatic-com/storybook": "4.0.1",
-    "@storybook/addon-a11y": "9.0.12",
-    "@storybook/addon-docs": "9.0.12",
-    "@storybook/addon-vitest": "9.0.12",
-    "@storybook/react-vite": "9.0.12",
+    "@storybook/addon-a11y": "9.0.15",
+    "@storybook/addon-docs": "9.0.15",
+    "@storybook/addon-vitest": "9.0.15",
+    "@storybook/react-vite": "9.0.15",
+    "@vitejs/plugin-react": "4.6.0",
     "@vitest/browser": "3.2.4",
     "@vitest/coverage-v8": "3.2.4",
     "lefthook": "1.11.14",
     "playwright": "1.53.1",
-    "storybook": "9.0.12",
+    "storybook": "9.0.15",
     "vitest": "3.2.4"
   }
 }
